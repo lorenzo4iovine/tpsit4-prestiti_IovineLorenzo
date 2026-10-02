@@ -1,9 +1,0 @@
-* 5928cc9 Feat
-* c75e618 Initial commit
-
-@lorenzo4iovine ➜ /workspaces/tpsit4-prestiti_IovineLorenzo (main) $  git config --global user.name "Lorenzo Iovine"
-@lorenzo4iovine ➜ /workspaces/tpsit4-prestiti_IovineLorenzo (main) $ git config --global user.email "lorenzo.iovine@marconirovereto.it"
-@lorenzo4iovine ➜ /workspaces/tpsit4-prestiti_IovineLorenzo (main) $ git config --global user.name
-Lorenzo Iovine
-@lorenzo4iovine ➜ /workspaces/tpsit4-prestiti_IovineLorenzo (main) $ git config --global user.email
-lorenzo.iovine@marconirovereto.it
