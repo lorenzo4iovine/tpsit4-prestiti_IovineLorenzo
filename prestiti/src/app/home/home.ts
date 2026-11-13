@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { IDispositivo } from '../interfaces/i-dispositivo';
+import {Dispositivo} from '../classi/dispositivo';
+
 
 @Component({
   imports: [],
@@ -6,4 +9,19 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
   templateUrl: './home.html',
 })
-export class Home {}
+export class Home {
+  private classe: string = '4B informatica';
+  private numeroOre: number = 123;
+
+  private mioDispositivo: IDispositivo = {
+    id: 1,
+    modello: 'PC',
+    anno: 2026,
+    inventario: 'num209',
+    marca: 'HP',
+    stato: 'manutenzione',
+    tipo: 'notebook',
+  }
+
+  private dispositivo2: Dispositivo = new Dispositivo( 1, 'num209', 'notebook', 'HP', 'PC', 2026, 'manutenzione');
+}
